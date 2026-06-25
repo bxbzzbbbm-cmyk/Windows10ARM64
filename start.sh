@@ -40,7 +40,7 @@ qemu-system-aarch64 \
 -cpu cortex-a53 \
 -smp 4 \
 --accel tcg,thread=multi \
--m "$ram" \
+-m $ram \
 -bios BIOS.img \
 -device VGA \
 -device nec-usb-xhci \
